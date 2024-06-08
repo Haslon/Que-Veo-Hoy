@@ -6,6 +6,5 @@ var connection = mysql.createConnection({
   user     : 'root',
   database : 'queveohoy'
 });
-
 module.exports = connection;
 
