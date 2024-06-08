@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LOGIN</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+    <div class="container">
+        <h2>LOGIN</h2>
+        <div class="form__group field">
+            <input type="text" class="form__field" placeholder="Usuario o correo" id="username" required>
+        </div>
+
+        <div class="form__group field">
+            <input type="password" class="form__field" placeholder="Contraseña" id="password" required>
+        </div>
+        <a class="btn-1" href="index.html" onclick="return validateForm()">Ingresar</a>
+
+        <div class="remember">
+            <a href="registro.html">No tienes cuenta? Registrate</a>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="../mdbootstrap/js/mdb.min.js"></script> <!-- Scripts de MDBootstrap -->
+    <script type="text/javascript" src="../js/validation.js"></script> <!-- Script de validación -->
+</body>
+</html>
