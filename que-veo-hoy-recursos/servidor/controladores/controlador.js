@@ -23,7 +23,7 @@ var response = {
 var orden = req.query.columna_orden;
 var tipo = req.query.tipo_orden;
 var cantidad = req.query.cantidad;
-var pagina = (req.query.pagina -1)*cantidad;
+var pagina = (req.query.pagina);
 
    
 
@@ -45,7 +45,8 @@ var pagina = (req.query.pagina -1)*cantidad;
         sql1 = sql1 +  " and genero_id =" +genero;
     }
 
-sql = sql + " order by " +orden +" "+tipo + " limit "+ pagina + ","+ cantidad;
+sql = "SELECT * FROM pelicula LIMIT 52 OFFSET " + (52  * pagina);
+console.log(sql, pagina)
     
 //Se realiza consulta de todas las peliculas y sus filtros
 con.query(sql, function(error, resultado, fields) {
@@ -56,6 +57,7 @@ con.query(sql, function(error, resultado, fields) {
         con.query(sql1, function(error, resultado1,fields){
             errores(error, res);
             response.total = resultado1[0].total;
+            console.log(JSON.stringify(response))
             res.send(JSON.stringify(response));
         });
        
