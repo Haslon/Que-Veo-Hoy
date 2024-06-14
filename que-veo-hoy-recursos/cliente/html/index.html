@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< Updated upstream
 
 <head>
   <meta charset="UTF-8">
@@ -78,56 +77,6 @@
               <option value="" class="pregunta" genero='Biography'>Biografía</option>
               <option value="" class="pregunta" genero=''>Cualquiera</option>
             </select>
-=======
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>¿Qué veo hoy?</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-  </head>
-  <body>
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v20.0" nonce="vCKZzZ2i"></script>
-    <div class="main-container">
-      <div class="header-title center">
-        <div class="container">
-          <h1>¿Qué veo hoy?</h1>
-          <div class="pregunta">
-            <!-- Primer paso del recomendador -->
-            <div class="paso-1" style="display:none">
-              <a class='boton-estreno btn-film btn-round' role='button'>Estreno</a>
-              <a class='boton-clasico btn-film btn-round' role='button'>Clásico</a>
-              <a class='boton-bien-puntuada btn-film btn-round' role='button'>Bien puntuada</a>
-              <a class='boton-cualquiera btn-film btn-round'role='button'>Cualquiera</a>
-            </div>
-            <!-- Segundo paso del recomendador (botones) -->
-            <div class="paso-2-links">
-              <a class='pregunta btn-film btn-round' genero='Comedy' role='button'>Comedia</a>
-              <a class='pregunta btn-film btn-round' genero='Action' role='button'>Acción</a>
-              <a class='pregunta btn-film btn-round' genero='Drama' role='button'>Drama</a>
-              <a class='pregunta btn-film btn-round' genero='Horror' role='button'>Terror</a>
-              <a class='pregunta btn-film btn-round' genero='Adventure' role='button'>Aventura</a>
-              <a class='pregunta btn-film btn-round' genero='Animation' role='button'>Animada</a>
-              <a class='pregunta btn-film btn-round' genero='Biography' role='button'>Biografía</a>
-              <a class='pregunta btn-film btn-round' genero='' role='button'>Cualquiera</a>
-            </div>
-            <!-- Segundo paso del recomendador (dropdown) en dispositivos más pequeños-->
-            <div class="paso-2">
-              <select name="" id="dropdownGenero">
-                <option readonly>Género</option>
-                <option value="" class="pregunta" genero='Comedy'>Comedia</option>
-                <option value="" class="pregunta" genero='Action'>Acción</option>
-                <option value="" class="pregunta" genero='Drama'>Drama</option>
-                <option value="" class="pregunta" genero='Horror'>Terror</option>
-                <option value="" class="pregunta" genero='Adventure'>Aventura</option>
-                <option value="" class="pregunta" genero='Animation'>Animada</option>
-                <option value="" class="pregunta" genero='Biography'>Biografía</option>
-                <option value="" class="pregunta" genero=''>Cualquiera</option>
-              </select>
-            </div>
->>>>>>> Stashed changes
           </div>
         </div>
       </div>
@@ -198,7 +147,6 @@
           <h3 class="titulo"></h3>
         </div>
       </div>
-<<<<<<< Updated upstream
     </div>
     <div class="main-container-grid">
       <!-- Alerta que se va a mostrar si no se encuentra ninguna película cuando se realiza la búsqueda -->
@@ -218,69 +166,8 @@
     <script src="../js/recomendaciones.js"></script>
     <script src="../js/peliculas.js"></script>
     
+
+    
 </body>
 
 </html>
-=======
-      <div class="main-container-grid">
-        <!-- Alerta que se va a mostrar si no se encuentra ninguna película cuando se realiza la búsqueda -->
-        <div class="alerta-resultados alert alert-info center" style="display:none;" role="alert"> No se encontraron resultados.</div>
-        <!-- Contenedor donde se van a mostrar todas las películas -->
-        <div class="contenedor-peliculas"></div>
-      </div>
-      <!-- Ejemplo de un botón de paginación que se va a clonar y repetir según la cantidad de páginas que se muestren -->
-      <button type='button' style="display:none" class='ejemplo-boton boton-pagina btn-film'></button>
-      <!-- Contenedor de botones de paginación -->
-      <div class="btn-group center grid-pager" role="group"> </div>
-      <div class="ctn-comentario"><label class="ctn-comentar">Dejanos tu opinión</label></div>
-      <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%" data-numposts="2" font ></div>
-
-      <footer class="footermain">
-        <div class="containerfooter">
-          <div class="footer-row">
-            <div class="footer-links">
-              <h4>Grupo 4</h4>
-              <ul>
-                <li><a href="">Nosotros</a></li>
-                <li><a href="">Integrantes</a></li>
-                <li><a href=""></a>Nuestros Servicios</li>
-                <li><a href="">Unete</a></li>
-              </ul>
-            </div>
-            <div class="footer-links">
-              <h4>Ayuda</h4>
-              <ul>
-                <li><a href="">Preguntas</a></li>
-                <li><a href="">peliculas</a></li>
-                <li><a href="">No encuentro mi pelicula</a></li>
-                <li><a href="">Comentarios</a></li>
-              </ul>
-            </div>
-            <div class="footer-links">
-              <h4>Peliculas</h4>
-              <ul>
-                <li><a href="">Estrenos</a></li>
-                <li><a href="">Clasicos</a></li>
-                <li><a href="">Categorias</a></li>
-              <li><a href="">Mas valorados</a></li>
-              </ul>
-            </div>
-            <div class="footer-links">
-              <h4>Siguenos</h4>
-              <div class="social-link">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-
-      <script src="../js/jquery.js"></script>
-      <script src="../js/recomendaciones.js"></script>
-      <script src="../js/peliculas.js"></script>
-    </body>
-  </html>
->>>>>>> Stashed changes
