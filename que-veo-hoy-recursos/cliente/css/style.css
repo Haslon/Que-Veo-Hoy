@@ -3,7 +3,7 @@
 body {
 	background-image: radial-gradient(circle at 111.24% 85.36%, #c2faff 0, #5389f2 50%, #002652 100%);
 	color: #000000;
-	font-family: "Roboto";
+	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.4;
@@ -71,6 +71,61 @@ img {
 	font-size: 30px;
 	margin-bottom: 3%;
 }
+
+
+.menu-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 1001; /* Asegura que el botón de menú esté por encima de .content */
+}
+
+.menu-button .line {
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.content {
+    position: fixed;
+    top: 0;
+    left: -350px; /* Ajusta este valor según el ancho del contenido */
+    width: 300px;  /* Ajusta este valor según el ancho del contenido */
+    height: 100vh;
+    background-color: #204c90;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.5);
+    transition: left 0.4s ease;
+    padding: 70px 20px 20px 20px; /* Ajusta el padding para dejar espacio al botón */
+    margin: 0;
+    border: none;
+    z-index: 1000; /* Asegura que .content esté por encima de otros elementos */
+}
+
+.content .row,
+.content .row a { /* Aplica el mismo estilo a las filas <div> y <a> */
+    display: block; /* Asegura que ambos sean bloques para ocupar el ancho completo */
+    padding: 15px 20px; /* Ajusta el padding para controlar el espacio interno de cada fila */
+    margin-bottom: 10px; /* Añade un margen inferior para separar visualmente las filas */
+    border-bottom: 1px solid #ddd;
+    font-size: 1.5rem;
+    border-radius: 10px; /* Ajusta este valor según sea necesario */
+    background-color: #ffffff; /* Color de fondo sólido para las filas */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    color: #000000; /* Color del texto para el enlace */
+}
+
+.content .row:hover,
+.content .row a:hover { /* Estilo de hover para ambos elementos */
+    background-color: rgb(233, 233, 233);
+}
+
+.content.active {
+    left: 0;
+}
+
 
 .paso-1 {
 	margin-bottom: 30px;
@@ -500,7 +555,7 @@ img {
 
 
 .grid-pager {
-	background-color: #293143;
+	background-color: radial-gradient(circle at 111.24% 85.36%, #c2faff 0, #5389f2 50%, #002652 100%);;
 	padding: 50px 0 70px 0;
 	width: 100%;
 	text-align: center;
@@ -584,20 +639,21 @@ img {
 	background: transparent;
 	margin: 0 2px;
 	font-size: 12px;
-	color: #C9D5EC;
+	color: #035afb;
 	padding: 6px 10px;
 	border-radius: 4px;
 }
 
 .grid-pager .boton-pagina:hover {
-	color: #FFF;
+	color: #be3434;
 }
 
 
 .grid-pager .boton-pagina.active {
-	color: #FFF;
-	background-color: #313A4F;
+    color: rgba(0, 0, 0, 0.5); /* Negro con 50% de opacidad */
+    background-color: rgba(49, 58, 79, 0.5); /* Color de fondo con 50% de opacidad */
 }
+
 
 /*-------*/
 

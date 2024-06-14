@@ -123,7 +123,6 @@ html,body {
 	.rank {
 		top: 6px;
 		font-size: 18px;
-		font-weight: /*bold*/;
 	}
 
 	.rank:before {
