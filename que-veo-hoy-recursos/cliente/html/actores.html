@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de Actores</title>
+    <link rel="stylesheet" href="../css/actores.css">
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v20.0" nonce="vCKZzZ2i"></script>
+    <div class="main-container">
+        <!-- Botón de menú de tres líneas -->
+        <div class="menu-button" id="menuButton">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <!-- Filas que se mostrarán al desplegarse -->
+        <div class="content" id="content">
+            <a class="row" href="index.html">Inicio</a>
+            <a class="row" href="trailer.html">Trailers</a>
+            <a class="row" href="../html/login.html">Cerrar Sesion</a>
+        </div>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                var menuButton = document.getElementById('menuButton');
+                var content = document.getElementById('content');
+
+                menuButton.addEventListener('click', function() {
+                    content.classList.toggle('active');
+                });
+            });
+        </script>
+
+        <div class="header-title center">
+            <h1>¿Qué veo hoy?</h1>
+        </div>
+        
+        <div class="container">
+            <div class="actor" data-name="Leonardo DiCaprio" data-age="49" data-movie="Inception" data-bio="Leonardo Wilhelm DiCaprio es un actor, productor de cine y ambientalista estadounidense.">
+                <img src="https://cdn.britannica.com/65/227665-050-D74A477E/American-actor-Leonardo-DiCaprio-2016.jpg" alt="Leonardo DiCaprio">
+            </div>
+            <div class="actor" data-name="Scarlett Johansson" data-age="39" data-movie="Avengers" data-bio="Scarlett Ingrid Johansson es una actriz y cantante estadounidense.">
+                <img src="https://m.media-amazon.com/images/M/MV5BMTM3OTUwMDYwNl5BMl5BanBnXkFtZTcwNTUyNzc3Nw@@._V1_.jpg" alt="Scarlett Johansson">
+            </div>
+            <div class="actor" data-name="Denzel Washington" data-age="69" data-movie="Training Day" data-bio="Denzel Hayes Washington Jr. es un actor, director y productor estadounidense.">
+                <img src="https://es.web.img3.acsta.net/pictures/17/01/24/15/19/303818.jpg" alt="Denzel Washington">
+            </div>
+            <!-- Agrega más actores según sea necesario -->
+        </div>
+    </div>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <div class="popup-body">
+                <img id="popup-image" src="" alt="Actor">
+                <div class="popup-info">
+                    <h2 id="popup-name"></h2>
+                    <p id="popup-age"></p>
+                    <p id="popup-movie"></p>
+                    <p id="popup-bio"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/actores.js"></script>
+</body>
+</html>
