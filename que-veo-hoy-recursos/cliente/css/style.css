@@ -1,5 +1,7 @@
 @import url("normalize.css");
-
+* {
+	list-style: none;
+}
 body {
 	background-image: radial-gradient(circle at 111.24% 85.36%, #c2faff 0, #5389f2 50%, #002652 100%);
 	color: #000000;
@@ -920,4 +922,76 @@ img {
 
 .fb-comments{
 	color: white;
+}
+
+.containerfooter{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.footermain{
+	background-color: #000000;
+	padding: 80px 0;
+}
+
+.footer-row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.footer-links{
+	width: 20%;
+	padding: 0 30px;
+}
+
+.footer-links h4{
+	font-size: 20px;
+	color: white;
+	margin-bottom: 25px;
+	font-weight: 500;
+	border-bottom: 2px solid #00c3ff;
+	padding-bottom: 19px;
+	display: inline-block;
+}
+
+.footer-links ul li a{
+	font-size: 18px;
+	text-decoration: none;
+	color: #BBBBBB;
+	display:block;
+	margin-bottom: 15px;
+	
+	transition: all .3s ease;
+}
+
+.footer-links ul li a:hover{
+	color: white;
+	padding-left: 6px;
+}
+
+.social-link a{
+	display: block;
+	min-height: 40px;
+	width: 40px;
+	background-color: rgba(255, 255, 255, 0.2);
+	margin: 0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all .5s ease;
+}
+
+.social-link a:hover{
+	background-color:#00c3ff ;
+}
+
+@media(max:991px){
+	.footer-row{
+		text-align: center;
+	}
+	.footer-row{
+		width: 100%;
+		margin-bottom: 30px;
+	}
 }
