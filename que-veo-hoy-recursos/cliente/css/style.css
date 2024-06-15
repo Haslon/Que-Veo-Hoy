@@ -1,5 +1,4 @@
 @import url("normalize.css");
-
 * {
 	list-style: none;
 }
@@ -12,7 +11,6 @@ body {
 	line-height: 1.4;
 	-webkit-font-smoothing: antialiased !important;
     -moz-osx-font-smoothing: grayscale !important;
-	
 }
 
 body:before {
@@ -895,12 +893,11 @@ img {
 }
 
 .ctn-comentar{
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: cursive;
 	font-size: 20px;
 	text-shadow: 1px 2px 1px rgb(29, 56, 241);
 }
 
-<<<<<<< Updated upstream
 .ctn-comentario{
 	text-align: center;
 	width: 100%;
@@ -925,9 +922,6 @@ img {
 
 .fb-comments{
 	color: white;
-=======
-.fb-comments{
-	color: #C9D5EC;
 }
 
 .containerfooter{
@@ -1000,5 +994,4 @@ img {
 		width: 100%;
 		margin-bottom: 30px;
 	}
->>>>>>> Stashed changes
 }
