@@ -1,11 +1,12 @@
-@import url("normalize.css");
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 * {
 	list-style: none;
 }
 body {
 	background-image: radial-gradient(circle at 111.24% 85.36%, #128df9 0, #413ef2 50%, #e9eaef 100%);
 	color: #000000;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Valera Round', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.4;
@@ -136,6 +137,8 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 
 .paso-1 .btn-film {
 	color: #e2dada;
+	font-weight: bold;
+	font-family: 'Varela Round', sans-serif;
 	cursor: pointer;
 	display: inline-block;
 	width: 130px;
@@ -195,6 +198,9 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 
 
 .paso-2-links {
+	color: #e2dada;
+	font-weight: bold;
+	font-family: 'Varela Round', sans-serif;
 	display: block;
 	opacity: .3;
 	font-size: 18px;
@@ -709,6 +715,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 
 .paso-2-links {
 	display: block;
+
 }
 
 
