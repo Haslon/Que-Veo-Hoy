@@ -192,7 +192,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	height: 58px;
 }
 
-/*-----*/
+
 
 .paso-2-links {
 	display: block;
@@ -265,7 +265,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	display: none;
 }
 
-/*-----*/
+
 
 .paso-2 {
 	display: block;
@@ -284,7 +284,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .paso-2-links.active {
-	/*opacity: .7;*/
+	opacity: .7;
 	cursor: pointer;
 }
 
@@ -319,7 +319,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	background-size: 13px 9px;
 }
 
-/*-----*/
+
 
 .datos-pelicula {
 	max-width: 780px;
@@ -394,7 +394,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	display: block;
 }
 
-/*------*/
+
 
 .datos-pelicula .botones-resultado {
 	position: absolute;
@@ -457,7 +457,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	background-color: #f3f3f3;
 }
 
-/*------*/
+
 
 .search-panel {
     background-color: radial-gradient(circle at 111.24% 85.36%, #c2faff 0, #5389f2 50%, #002652 100%);
@@ -553,7 +553,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	margin-bottom: 8px;
 }
 
-/*-------*/
+
 
 
 
@@ -564,7 +564,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	text-align: center;
 }
 
-/*Masonry*/
+
 .contenedor-peliculas {
 	max-width: 940px;
 	column-gap: 28px;
@@ -626,7 +626,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .contenedor-peliculas .item:hover img {
-	/*transform: scale(1.02);*/
+	transform: scale(1.02);
 }
 
 .contenedor-peliculas .item:hover .caption {
@@ -634,7 +634,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 
-/*-------*/
+
 
 .grid-pager .boton-pagina {
 	border: 0;
@@ -658,7 +658,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 
-/*-------*/
+
 
 .alerta-recomendacion, .error,
 .alerta-resultados {
@@ -701,7 +701,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	font-size: 60px;
 }
 
-/*////////// RESPONSIVE ////////////*/
+
 
 .paso-2 {
 	display: none;
@@ -906,7 +906,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 
 .ctn-comentar{
 	font-family: cursive;
-	font-size: 20px;
+	font-size: 15px;
 	text-shadow: 1px 2px 1px rgb(29, 56, 241);
 }
 
