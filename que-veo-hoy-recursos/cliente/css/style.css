@@ -55,18 +55,18 @@ img {
 	font-weight: 900;
 	position: relative;
 }
-
-.header-title h1:before {
-	content:'';
+.log{
+	width: 350px; ;
+	height: 350px; ;
 	display: block;
-	background: url(../img/logo-queveo.png) no-repeat;
-	background-size: 60px 60px;
-	width: 90px;
-	height: 90px;
-	position: absolute;
-	top: 0;
-	left: 50%;
-	transform: translateX(-50%);
+	align-items: center;
+	margin-left: 39%;
+	padding-top: 5px;
+	transition: 0.1s;
+}
+.log:hover{
+opacity: 1 !important;
+box-shadow: 0 0 8px rgba(0, 0, 0, 0.5); 
 }
 
 .header-title h1.small {
@@ -160,10 +160,10 @@ img {
 .paso-1 .btn-film:before {
 	content:'';
 	display: block;
-	background: url(../img/icon_estreno.png) no-repeat;
-	background-size: 44px 56px;
-	width: 44px;
-	height: 56px;
+	background: url(../img/estreno_19.png) no-repeat;
+	background-size: 56px 60px;
+	width: 48px;
+	height: 60px;
 	position: absolute;
 	top: 22px;
 	left: 50%;
@@ -171,24 +171,24 @@ img {
 }
 
 .paso-1 .btn-film:nth-child(2):before {
-	background: url(../img/icon_clasico.png) no-repeat;
-	background-size: 42px 58px;
-	width: 42px;
-	height: 58px;
+	background: url(../img/clasico_83.png) no-repeat;
+	background-size: 49px 60px;
+	width: 49px;
+	height: 60px;
 }
 
 .paso-1 .btn-film:nth-child(3):before {
-	background: url(../img/icon_bienpunteada.png) no-repeat;
-	background-size: 26px 56px;
-	width: 26px;
-	height: 56px;
+	background: url(../img/puntuada-22.png) no-repeat;
+	background-size: 52px 59px;
+	width: 46px;
+	height: 59px;
 }
 
 .paso-1 .btn-film:nth-child(4):before {
-	background: url(../img/icon_cualquiera.png) no-repeat;
-	background-size: 55px 53px;
-	width: 55px;
-	height: 53px;
+	background: url(../img/cualquiera_10.png) no-repeat;
+	background-size: 59px 59px;
+	width: 59px;
+	height: 58px;
 }
 
 /*-----*/
@@ -202,8 +202,8 @@ img {
 }
 
 .paso-2-links a {
-	background: url(../img/icon-paso2-comedia.png) no-repeat;
-	background-size: 36px 38px;
+	background: url(../img/comedia_20.png) no-repeat;
+	background-size: 60px 48px;
 	background-position: center 6px;
 	display: inline-block;
 	width: 100px;
@@ -215,44 +215,44 @@ img {
 }
 
 .paso-2-links a:nth-child(2) {
-	background: url(../img/icon-paso2-accion.png) no-repeat;
+	background: url(../img/action-14.png) no-repeat;
 	background-size: 52px 39px;
 	background-position: center 6px;
 }
 
 .paso-2-links a:nth-child(3) {
-	background: url(../img/icon-paso2-drama.png) no-repeat;
-	background-size: 53px 35px;
-	background-position: center 9px;
+	background: url(../img/drama_49.png) no-repeat;
+	background-size: 60px 40px;
+	background-position: center 10px;
 }
 
 .paso-2-links a:nth-child(4) {
-	background: url(../img/icon-paso2-terror.png) no-repeat;
+	background: url(../img/horror-movie_25.png) no-repeat;
 	background-size: 34px 40px;
 	background-position: center 6px;
 }
 
 .paso-2-links a:nth-child(5) {
-	background: url(../img/icon-paso2-aventura.png) no-repeat;
+	background: url(../img/aventura_25.png) no-repeat;
 	background-size: 37px 46px;
 	background-position: center top;
 }
 
 .paso-2-links a:nth-child(6) {
-	background: url(../img/icon-paso2-animada.png) no-repeat;
-	background-size: 34px 41px;
+	background: url(../img/animada_75.png) no-repeat;
+	background-size: 40px 41px;
 	background-position: center 6px;
 }
 
 .paso-2-links a:nth-child(7) {
-	background: url(../img/icon-paso2-biografica.png) no-repeat;
-	background-size: 29px 45px;
+	background: url(../img/biografia_72.png) no-repeat;
+	background-size: 30px 49px;
 	background-position: center 2px;
 }
 
 .paso-2-links a:nth-child(8) {
-	background: url(../img/icon-paso2-cualquiera.png) no-repeat;
-	background-size: 42px 41px;
+	background: url(../img/cualquiera_52.png) no-repeat;
+	background-size: 50px 47px;
 	background-position: center 5px;
 }
 
