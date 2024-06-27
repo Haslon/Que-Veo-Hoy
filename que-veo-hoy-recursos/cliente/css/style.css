@@ -522,8 +522,8 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .search-panel button.buscar {
-	background-color: #7DD6BB;
-	color: #313A4F;
+	background-color: #34245f;
+	color: #ffffff;
 	border-radius: 5px;
 	outline: none;
 	appearance: none;
@@ -536,7 +536,8 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 }
 
 .search-panel button.buscar:hover {
-	background-color: #51b093;
+	background-color: #8447d3;
+	
 }
 
 .search-panel .container {
