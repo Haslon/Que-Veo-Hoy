@@ -1,9 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 body {
-    background-image: radial-gradient(circle at 111.24% 85.36%, #c2faff 0, #5389f2 50%, #002652 100%);
+    background-image: radial-gradient(circle at 111.24% 85.36%, #626dcd 0, #736bddfc 50%, #7e91f0 100%);
     color: #000000;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Valera Round', sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.4;
