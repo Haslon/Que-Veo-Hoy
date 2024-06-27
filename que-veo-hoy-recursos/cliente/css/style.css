@@ -3,7 +3,7 @@
 	list-style: none;
 }
 body {
-	background-image: radial-gradient(circle at 111.24% 85.36%, #c2faff 0, #5389f2 50%, #002652 100%);
+	background-image: radial-gradient(circle at 111.24% 85.36%, #b624ec 0, #b388c8 50%, #744267 100%);
 	color: #000000;
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400;
@@ -22,6 +22,7 @@ body:before {
 	margin: auto;
 	top: 40px;
 	background: url(../img/logo_acamica.png);
+	justify-content: center;
 	background-size: 132px 27px;
 }
 
@@ -153,7 +154,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 
 .paso-1 .btn-film:hover {
     opacity: 1 !important;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Establece un sombreado al pasar el mouse */
+    box-shadow: 0 0 10px rgba(16, 16, 16, 0.026); /* Establece un sombreado al pasar el mouse */
 }
 
 
