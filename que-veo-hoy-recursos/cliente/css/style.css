@@ -59,7 +59,7 @@ img {
 }
 .log{
 	width: 350px; ;
-	height: 350px; ;
+	height: 270px; ;
 	display: block;
 	align-items: center;
 	margin-left: 39%;
@@ -169,7 +169,7 @@ box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
 	width: 48px;
 	height: 60px;
 	position: absolute;
-	top: 22px;
+	top: 12px;
 	left: 50%;
 	transform: translateX(-50%);
 }
