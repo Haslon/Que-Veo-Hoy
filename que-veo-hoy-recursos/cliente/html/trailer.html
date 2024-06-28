@@ -5,12 +5,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trailers</title>
   <link rel="stylesheet" href="../css/trailer.css">
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
   <link rel="stylesheet" href="../css/footer.css">
   <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <!-- Añadir Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
+  <!-- Botón de menú de tres líneas -->
+  <div class="menu-button" id="menuButton">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div>
+
+  <!-- Filas que se mostrarán al desplegarse -->
+  <div class="content" id="content">
+    <a class="row" href="index.html">Inicio</a>
+    <a class="row" href="actores.html">Actores</a>
+    <!--<a class="row" href="../html/login.html">Cerrar Sesion</a>-->
+  </div>
+  <script>document.addEventListener('DOMContentLoaded', function() {
+    var menuButton = document.getElementById('menuButton');
+    var content = document.getElementById('content');
+
+    menuButton.addEventListener('click', function () {
+        content.classList.toggle('active');
+    });
+});
+</script>
   <div class="container">
     <h1><i class="fas fa-film"></i>Movie Trailers</h1>
     <div class="trailers" id="trailers">

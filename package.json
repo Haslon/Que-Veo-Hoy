@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "scripts": {
+  "dev": "npm i && cd ./que-veo-hoy-recursos/servidor && node servidor.js"
   }
-}
+} 
